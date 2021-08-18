@@ -1,0 +1,35 @@
+ /* header, h5 {
+     font-family:sans-serif;
+     display: flex;
+     color:blue;
+ }
+
+
+.CCardBody .body h5 {
+    display: flex;
+    margin: auto;
+    padding: 0%;
+    font-family: serif;
+    color: red;
+
+
+
+    
+ }
+  */
+  canvas{ height:100%; }
+  @media only screen and (device-width: 768px) {
+    /* For general iPad layouts */
+      CRow.text-center {
+      font-size: 10px;
+    }
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+    /* For portrait layouts only */
+  }
+  
+  @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+    /* For landscape layouts only */
+  }
+
